@@ -1,26 +1,26 @@
-# Project Title: Shopping Cart using Redux
+Project Title: Shopping Cart using Redux
 
-# Live working App Url("https://65f6c48b0ab77d6d3109514e--soft-youtiao-d888dc.netlify.app/")
-# Description:
+Live working App Url("https://65f6c48b0ab77d6d3109514e--soft-youtiao-d888dc.netlify.app/")
+Description:
 The Shopping Cart using Redux is a web application built with React and Redux that simulates an online shopping experience. Users can browse through a catalog of products, add items to their cart, update quantities, and remove items from the cart. The application utilizes Redux for state management, providing a centralized store to manage the cart data.
 
-# Key Features:
+Key Features:
 
-# Product Catalog: 
+Product Catalog: 
 Displays a list of products available for purchase, including details such as title, description, price, and discount percentage.
 
-# Add to Cart: 
+Add to Cart: 
 Allows users to add products to their shopping cart with the option to specify the quantity.
 
-# Update Quantity: 
+Update Quantity: 
 Enables users to update the quantity of items in their cart, adjusting the total amount accordingly.
 
-# Remove from Cart: 
+Remove from Cart: 
 Allows users to remove items from their cart, updating the total quantity and amount accordingly.
-# Order Summary: 
+Order Summary: 
 Provides users with an order summary, displaying the total quantity of items in the cart and the total amount to be paid.
 
-# Navigation: 
+ Navigation: 
 Allows users to navigate between different sections of the application, including the product catalog, shopping cart, and checkout.
 Technologies Used:
 
@@ -39,24 +39,24 @@ src/redux: Includes Redux-related files, such as actions, reducers, and the Redu
 src/styles: Contains CSS files for styling the components.
 public: Contains static assets and the HTML template for the application.
 
-# Installation and Setup:
+Installation and Setup:
 
 Clone the project repository from GitHub.
 Navigate to the project directory and install dependencies using npm install.
 Start the development server using npm start.
 Access the application in your web browser at the specified URL.
 
-# Future Enhancements:
+Future Enhancements:
 
 Implement user authentication and user-specific carts.
 Add persistence using local storage or a backend database.
 Enhance the user interface with additional features such as sorting and filtering options in the product catalog.
 Optimize performance by implementing lazy loading and code splitting.
 
-# Contributing:
+Contributing:
 Contributions to the project are welcome! Fork the repository, make your changes, and submit a pull request for review
 
-# Purpose:
+Purpose:
 
 The purpose of the "Shopping Cart using Redux" project is to provide users with a seamless and intuitive online shopping experience. By leveraging the power of React and Redux, the project aims to demonstrate effective state management and user interface design principles in web development. Key purposes of the project include:
 
