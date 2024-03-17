@@ -1,34 +1,25 @@
-import React from "react";
-import "./App.css";
+import './App.css';
 import AppBar from "@mui/material/AppBar";
 import HomeIcon from "@mui/icons-material/Home";
 import { Button } from "@mui/material";
 import Container from "@mui/material/Container";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { useContext} from "react";
 import { Data } from "./data";
 import { Link, Route, Routes } from "react-router-dom";
-import { UserProvider,UserContext } from "./userContext";
-import CartDetails from "./cartdetails";
-
-
+import CartDetails from "./cartdetails"
+import { useSelector } from 'react-redux';
 function App() {
-  
   return (
-    <UserProvider >
-    <div>
-      <ResponsiveAppBar  />
-     
-
-      
-    </div></UserProvider>
+    <div className="App">
+      <ResponsiveAppBar/>
+    </div>
   );
 }
 
 export default App;
-
+ 
 function ResponsiveAppBar() {
-  const { productlist } = useContext(UserContext);
+  const quan = useSelector((state)=>state.myCartData.cartdata)
   return (
    <div> <AppBar position="static" className="customAppBar">
       <Container id="oppbar" maxWidth="xl">
@@ -53,7 +44,7 @@ function ResponsiveAppBar() {
             {" "}
             Cart{" "}
           </Link>
-          {productlist.length > 0 && (
+          {quan.length > 0 && (
         <span style={{
           position: 'absolute',
           top: '0px',
@@ -67,7 +58,7 @@ function ResponsiveAppBar() {
           textAlign: 'center'
 
         }}>
-          {productlist.length}
+          {quan.length}
         </span>
       )}
         </Button>

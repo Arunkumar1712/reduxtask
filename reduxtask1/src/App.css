@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* #282c34 */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* #747264 */
+#oppbar{
+  background-color:#3c73e9; 
+  height:50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+body{
+  background-color: #EEEDEB;
+}
+#contM{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+  justify-content: space-around;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.addbtn{
+  font-weight:bold ;
+  font-size: 14px;
+  margin-left: auto;
+  width: 400px;
+  
+}
+.addbtn:hover{
+color:whitesmoke
+}
+#cd{
+  text-decoration: none;
+  color:#EEEDEB;
+}
+.did{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardcart{
+  width: 500px;
+}
+#cartem{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.cart{
+  display: flex;
+  justify-content: center;
+
+ align-items: center;
+ margin: 10px;
+
+ 
+
+}
+.cartd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#cartf{
+  text-align: center;
+  flex-direction:column;
+  justify-content:right;
+
+}
+#totalcart{
+display: flex;
+justify-content: center;
+margin: 10px;
+flex-wrap: wrap;
+}
+#pcbbtn{
+  display: flex;
+  flex-direction: column;
+}
+#cartfg{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
